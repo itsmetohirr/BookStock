@@ -20,8 +20,14 @@ BookStock is a book reading platform. It is designed for avid readers and provid
 1. Clone the repository:
    ```bash
    git clone https://github.com/itsmetohirr/BookStock
+   cd [your project folder]
 
+2. Install the requirements:
+   ```bash
    pip install -r requirements.txt
+3. Run the project:
+   ```bash
+   ./manage.py runserver
 
 Set up environment variables:
   - SECRET_KEY = [Your django secret key]
