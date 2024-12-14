@@ -1,3 +1,9 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def register(request):
+    return render(request, "sign_up_form.html")
+
+
+def sign_in(request):
+    return render(request, "sign_in_form.html")
